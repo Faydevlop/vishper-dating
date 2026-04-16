@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "extra": {
+      "eas": {
+        "projectId": "f3f2f9bc-bac3-437c-a70a-bbbbb1686757"
+      }
+    },
+    "android": {
+      "package": "com.faydevlop.vishperdatingroot"
+    }
+  }
+}
