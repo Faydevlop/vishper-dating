@@ -1,0 +1,47 @@
+# Dependencies
+/node_modules/
+/mobile/node_modules/
+
+# Expo / EAS local state
+/mobile/.expo/
+/mobile/.expo-shared/
+/mobile/.eas/
+/mobile/dist/
+/mobile/web-build/
+/mobile/.metro-health-check*
+
+# Build artifacts
+/mobile/*.apk
+/mobile/*.aab
+*.tsbuildinfo
+
+# Environment files (keep example template)
+/mobile/.env
+/mobile/.env.*
+!/mobile/.env.example
+
+# Android local build/cache files
+/mobile/android/.gradle/
+/mobile/android/.idea/
+/mobile/android/.cxx/
+/mobile/android/build/
+/mobile/android/app/build/
+/mobile/android/local.properties
+
+# iOS local build/cache files
+/mobile/ios/Pods/
+/mobile/ios/build/
+/mobile/ios/DerivedData/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

@@ -1,0 +1,16 @@
+{
+  "name": "vishper-dating-root",
+  "private": true,
+  "scripts": {
+    "start": "npm --prefix mobile run start --",
+    "android": "npm --prefix mobile run android --",
+    "androind": "npm --prefix mobile run androind --",
+    "android:device": "npm --prefix mobile run android:device --",
+    "androind:device": "npm --prefix mobile run androind:device --",
+    "android:usb": "npm --prefix mobile run android:usb --",
+    "ios": "npm --prefix mobile run ios --",
+    "web": "npm --prefix mobile run web --",
+    "typecheck": "npm --prefix mobile run typecheck --",
+    "assets:generate": "npm --prefix mobile run assets:generate --"
+  }
+}
