@@ -11,6 +11,9 @@
     "ios": "npm --prefix mobile run ios --",
     "web": "npm --prefix mobile run web --",
     "typecheck": "npm --prefix mobile run typecheck --",
-    "assets:generate": "npm --prefix mobile run assets:generate --"
+    "assets:generate": "npm --prefix mobile run assets:generate --",
+    "eas:init": "cd mobile && eas.cmd project:init",
+    "build:apk": "cd mobile && eas.cmd build -p android --profile preview",
+    "build:aab": "cd mobile && eas.cmd build -p android --profile production"
   }
 }
