@@ -27,6 +27,8 @@
 /mobile/android/build/
 /mobile/android/app/build/
 /mobile/android/local.properties
+/mobile/.gradle-user-home/
+/mobile/.git_backup_local/
 
 # iOS local build/cache files
 /mobile/ios/Pods/
